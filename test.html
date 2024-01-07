@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <form action="submit.php" method="POST" id="myForm">
+            <!-- Rest of your form content -->
+            <div class="fullname">
+                <div class="name">
+                    <label for="fullName" class="fullName-label">Full Name</label><br>
+                    <input type="text" id="fullName" class="fullName" name="fullName" placeholder="Full Name" required
+                        pattern="^[A-Za-z\s]+$">
+                    <!-- The pattern attribute enforces alphabets-only validation -->
+                </div>
+                <!-- Rest of the form fields -->
+            </div>
+            <!-- Rest of your form -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
+

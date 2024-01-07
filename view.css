@@ -1,0 +1,93 @@
+
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f1f1f1;
+    /* font-size: 17px; */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #cee3eb;
+  }
+  tr:nth-child(odd) {
+    background-color: rgb(243, 243, 243);
+  }
+  
+  tr:hover {
+    background-color: #e9e8e8;
+  }
+  
+  .edit-button{
+    width: 100px;
+    background-color: #86adbd;
+    border: none;
+    color: white;
+    padding: 9px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.edit-button:hover{
+    background-color: #729aaa;
+}
+
+  .search-container {
+    margin-bottom: 50px;
+    margin-top: 20px;   
+    margin-left: 220px;
+  }
+  
+  .search-container input[type=text] {
+    padding: 10px;
+    border: 1px solid rgba(220, 220, 220, 0.226);
+    border-radius: 25px;
+    margin-right: 10px;
+    width: 300px;
+  }
+  
+  .search-container input[type=text]:focus {
+    outline: none;
+  }
+  
+  .search-container button {
+    padding: 8px 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #86adbd;
+    color: #fff;
+  }
+  
+  .search-container button:hover {
+    background-color: #729aaa;
+  }
+
+   .prompt-message {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            z-index: 999;
+        }
+
+
+        

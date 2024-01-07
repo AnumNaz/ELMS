@@ -1,0 +1,13 @@
+#datetime {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+#datetime i {
+  margin-right: 5px;
+}
+
+#time, #date {
+  margin-right: 10px;
+}

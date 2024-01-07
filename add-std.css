@@ -1,0 +1,342 @@
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: rgb(249, 245, 246);
+  }
+  .fullbar{
+    background-color: #D7EAF1;
+    height: 700px; 
+    width: 200px;
+    border-radius: 10px;
+    /* position:fixed; */
+    
+  }
+  .sidebar{
+    background-color: #D7EAF1;
+    width: 200px;
+    height: 670px;
+    /* border-radius: 10px; */
+    position: fixed;
+  }
+  .nav-elmnt{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    /* padding: 10px; */
+    /* margin-top: 13px; */
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-radius: 30px;
+    width: 148px;
+    
+  }
+  .main-elmnt{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-left: -10px;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 190px;
+  
+  }
+  .ul-main{
+    list-style: none;
+    /* margin-top: 50px; */
+  }
+  .ul-sub{
+    list-style: none;
+    /* display: none; */
+    
+  }
+  .button{
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background-color:rgba(255, 255, 255, 0);
+    margin-top: 12px;
+    /* padding: ; */
+    margin-left: -10px;
+    /* padding-left: -200px; */
+    border-radius: 30px;
+    width: 190px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
+  }
+  
+  #student, #teacher,#books,#reserve, #review,#author{
+    display: none;
+  }
+  .button.active{
+    background-color: White;
+  }
+  
+  .nav-elmnt:hover,.button:hover,.main-elmnt:hover{
+    background-color: white;
+  }
+  
+  .bar{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .right{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    margin-top: 3px;
+    border-radius: 50px;
+    padding: 10px;
+    /* padding-left: ; */
+    margin-left: 10px;
+  
+    background-color: #D7EAF1;
+  }
+  .header{
+    /* display: flex;
+    flex-direction: row; */
+    width: 180%;
+    /* height: 60px; */
+    
+    margin-top: 3px;
+    border-radius: 50px;
+    padding: 10px;
+    /* padding-left: ; */
+    margin-right: 10px;
+    margin-left: 200px;
+  
+  }
+  #datetime{
+    display: flex;
+    flex-direction: row;
+      position: absolute;
+      right: 100px;
+      
+  }
+  .date{
+    font-size: 15px; 
+    font-weight: bold;
+    padding: 10px;
+    
+  }
+  
+  .page{
+    padding-top: 10px;
+    /* background-color:#eaf7fc; */
+    width: 96%;
+    height: 95%;
+    margin: 25px;
+    /* border: 3px solid black; */
+    border-radius: 30px;
+  
+  }
+  
+  .sec-1{
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .sec-2{
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 20px; */
+  }
+  
+  .part-1{
+    padding: 70px;
+    /* padding-top: 30px; */
+    background-color: bisque;
+    margin: 10px;
+    border-radius: 50px;
+    width: 500px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+  }
+  .pt-2{
+    width: 110px;
+    background-color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+    
+  }
+  
+  footer {
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: -55px;
+    border-radius: 20px;
+  }
+  .container {
+    max-width: 960px;
+    
+  }
+  
+  
+  .nam{
+    margin-left: 480px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    width: 120px;
+    /* background-color: bisque; */
+  }
+  .amnt{
+    margin-left: 480px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: -50px;
+    padding: 20px;
+    padding-left: 40px;
+    width: 120px;
+    /* background-color: bisque; */
+  }
+  
+  
+  .form {
+    border-radius: 20px;
+        /* margin-top: 100px; */
+        margin-left: 100px;
+        margin-bottom: 50px;
+        width: 900px;
+        background-color: #D7EAF1;
+        padding: 40px;
+        text-shadow: 2px, 4px, 2px #ababab;
+}
+.fullname{
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    width: 50%;
+    /* padding: 10px; */
+}
+.firstname{
+    padding: 10px;
+    width: 99%;
+    border-radius: 50px;
+    border: none;
+    margin-left: 10px;
+}
+.lastname{
+    margin-left: 10px;
+    padding: 10px;
+    width: 99%;
+    border-radius: 50px;
+    border: none;
+}
+
+.fname{
+    font-weight: bold;
+    font-size: 17px;
+    padding: 15px;
+}
+.lname{
+    font-weight: bold;
+    font-size: 17px;
+    padding: 15px;
+}
+
+.email-label, .Username-label, .date-label{
+    font-weight: bold;
+    font-size: 17px;
+    padding: 15px;
+}
+
+.email,.Username,.date{
+    margin-left: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+}
+.password-label{
+    font-weight: bold;
+    font-size: 17px;
+    padding: 15px;
+}
+
+.password{
+    margin-left: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+}
+.gender-label{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 15px;
+}
+
+.genclass{
+    margin-top: -15px;
+    margin-left: 30px;
+    
+}
+
+.sub-btn{
+    
+width: 20%;
+padding: 10px; 
+color: white;
+background-color: #86adbd;
+color: #fff;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+margin-top: 100px;
+margin-left: 200px;
+
+
+}
+.reset-btn{
+    
+  width: 20%;
+  padding: 10px; 
+  color: white;
+  background-color: #86adbd;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 100px;
+  margin-left: 150px;
+  
+  }
+
+/* .signin{
+    margin-left: 170px;
+    
+} */
+.signin-btn{
+    /* margin-top: 10px; */
+    padding: 5px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 170px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffffff00;
+    
+
+}
+.signinbtn{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
